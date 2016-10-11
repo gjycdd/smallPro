@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/css.css"/>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/register.js"></script>
+    <script src="js/share.js"></script>
+    <script src="js/cookies.js"></script>
+</head>
+<body class="gray">
+    <div class="log_h">
+        <a href="index.html"><img src="images/login_logo.png" alt=""/></a>
+        <h1>欢迎注册</h1>
+    </div>
+    <div class="log_b">
+        <p class="register_h">
+            <span></span>
+            <span></span>
+            <span></span>
+        </p>
+        <form action="" method="post" class="step1">
+            <p>
+                <span>邮箱：</span><input type="text" placeholder="邮箱"/><span class="error">请填写邮箱!</span>
+            </p>
+            <p>
+                <span>验证码：</span><input type="text" placeholder="验证码"/>
+                <span class="error">请填写验证码!</span>
+                <b></b>
+                <input type="button" id="reget"/>
+            </p>
+            <p>
+                <input type='checkbox' checked/>已阅读并同意 <a href="#">《多商分销系统用户服务协议》</a>
+            </p>
+            <p>
+                <input type="button" value="下一步"/>
+            </p>
+            <span>郑重声明：本货源网站不收取任何形式的保证金、加盟费，所有索取的都是诈骗分子！请提高警惕，谨防被骗！</span>
+        </form>
+        <form action="" method="post" class="step2">
+            <p>
+                <span>用户名：</span><input type="text" placeholder="用户名" id="step2_usr"/><span class="error">请填用户名!</span>
+            </p>
+            <p>
+                <span>密码：</span><input type="password" placeholder="密码"/>
+                <span class="error">请填写密码!</span>
+            </p>
+            <p>
+                <span>确认密码：</span><input type="password" placeholder="确认密码"/>
+                <span class="error">请填写密码!</span>
+            </p>
+            <p>
+                <span>手机号码：</span><input type="text" placeholder="手机号码" id="step2_phone"/>
+                <span class="error">请填写手机号码!</span>
+            </p>
+            <p>
+                <span>邀请码：</span><input type="text" placeholder="邀请码(没有可不填写)"/>
+                <span class="error">邀请码不存在!</span>
+            </p>
+            <p>
+                <b>填写网店地址，即可享受一键代发服务</b>
+                <span>http://：</span><input type="text" placeholder="网店地址"/>
+                <span class="error">域名出错!</span>
+            </p>
+            <p>
+                <input type="button" value="注册"/>
+            </p>
+        </form>
+        <div class="step3">
+            <h2>恭喜您注册成功！</h2>
+            <p>您已经成功注册多商网，<br />您可以使用用户名<span></span>、注册邮箱<span></span>,或注册手机<span></span>登录多商网</p>
+            <h4>
+                请设置您关注的商品类别
+                <select name="" id="">
+                    <option value="">请选择</option>
+                </select>
+            </h4>
+            <button>立即前往购物页</button>
+        </div>
+    </div>
+    <div class="log_f">
+        <p class="log_f_a">
+            <a href="#">关于我们</a> | <a href="#">用户帮助</a> | <a href="#">法律声明</a> | <a href="#">联系我们</a> | <a href="#">友情链接</a>
+            <span>广州友商信息科技有限公司版权所有&copy;2005-2014<a  href="#">粤ICP备110993202号</a><a href="#">站长统计</a></span>
+        </p>
+    </div>
+    <div class="adver">
+        <a href="###">
+            <img src="images/share_adver.png" alt=""/>
+        </a>
+        <p></p>
+    </div>
+</body>
+</html>

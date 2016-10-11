@@ -1,0 +1,27 @@
+[
+  {
+    "src":"images/rand_pic_1.jpg",
+    "price":"￥39.00",
+    "href":"#"
+  },{
+  "src":"images/rand_pic_2.jpg",
+  "price":"￥42.00",
+  "href":"#"
+},{
+  "src":"images/rand_pic_3.jpg",
+  "price":"￥37.00",
+  "href":"#"
+},{
+  "src":"images/rand_pic_4.jpg",
+  "price":"￥50.00",
+  "href":"#"
+},{
+  "src":"images/rand_pic_5.jpg",
+  "price":"￥21.00",
+  "href":"#"
+},{
+  "src":"images/rand_pic_6.jpg",
+  "price":"￥46.00",
+  "href":"#"
+}
+]

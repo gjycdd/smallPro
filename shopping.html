@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/css.css"/>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/share.js"></script>
+    <script src="js/cookies.js"></script>
+    <script src="js/shoping.js"></script>
+</head>
+<body>
+    <div class="top">
+        <div class="layout">
+            <div class="top_l">
+                <p class="top_l_span">
+                    <span class="hello">您好，欢迎来到多商网！</span>
+                    &nbsp;
+                    [<a href="login.html">请登录</a><a href="###" style="display:none;">用户中心</a>] [<a href="register.html">免费注册</a><a href="index.html" style="display:none;">退出</a>]
+                </p>
+            </div>
+            <div class="top_r">
+                <div class="top_r_wrap">
+                    <a href="index.html">多商网首页</a>
+                    <ul>
+                        <li style="background:url(images/share_shop_m.png) no-repeat left -5px"><a href="shopping.html">购物车</a></li>
+                        <li style="background:url(images/share_phone_m.png) no-repeat left -5px"><a href="###">手机APP</a></li>
+                        <li style="background:url(images/share_phone_m.png) no-repeat left -5px"><a href="###">手机多商</a></li>
+                        <li style="background:url(images/share_help_m.png) no-repeat left -3px"><a href="###">帮助中心</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="layout">
+            <div class="head_wrap">
+                <a href="index.html" class="head_l">
+                    <img src="images/share_logo.png" alt=""/>
+                </a>
+                <div class="search">
+                    <input type="text" placeholder="周二新品火爆上新中！周四特价季来啦"/>
+                    <a href="javascript:;">搜索</a>
+                    <ul>
+                        <p>热门搜索：</p>
+                        <li><a href="###" class="hot">高帮鞋</a></li>
+                        <li><a href="###">热裤</a></li>
+                        <li><a href="###" class="hot">喷雾</a></li>
+                        <li><a href="###">商务公文包</a></li>
+                        <li><a href="###">节能灯</a></li>
+                    </ul>
+                </div>
+                <div class="head_r">
+                    <a href="###"><img src="images/share_adv1_m.png" alt=""/></a>
+                    <a href="###"><img src="images/share_adv2_m.png" alt=""/></a>
+                    <a href="###"><img src="images/share_adv3_m.png" alt=""/></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="nav_index bg">
+        <div class="layout">
+            <div class="nav_cate" >
+                <a href="javascript:void(0);" class="nav_cate_hover">全部商品分类</a>
+                <i></i>
+                <div class="catelist disp">
+                    <div class="catagroup">
+                        <dl class="cata_btn">
+                            <dt>
+                            <h3>
+                                <i class="b_i"></i>
+                                <a href="glist.html">时尚女装</a>
+                            </h3>
+                            </dt>
+                            <dd>
+                                <a href="###">上衣</a>
+                                <a href="###">裙子</a>
+                                <a href="###">针织毛衣</a>
+                                <a href="###">裤子</a>
+                            </dd>
+                        </dl>
+                        <div class="cata_main">
+                            <div class="mask"></div>
+                            <ul>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="catagroup">
+                        <dl class="cata_btn">
+                            <dt>
+                            <h3>
+                                <i class="b_i"></i>
+                                <a href="###">箱包服饰</a>
+                            </h3>
+                            </dt>
+                            <dd>
+                                <a href="###">女包</a>
+                                <a href="###">双肩包</a>
+                                <a href="###">男包</a>
+                                <a href="###">钱包</a>
+                            </dd>
+                        </dl>
+                        <div class="cata_main">
+                            <div class="mask"></div>
+                            <ul>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="catagroup">
+                        <dl class="cata_btn">
+                            <dt>
+                            <h3>
+                                <i class="b_i"></i>
+                                <a href="###">风情鞋靴</a>
+                            </h3>
+                            </dt>
+                            <dd>
+                                <a href="###">女士单鞋</a>
+                                <a href="###">女士靴子</a>
+                                <a href="###">休闲女鞋</a>
+                            </dd>
+                        </dl>
+                        <div class="cata_main">
+                            <div class="mask"></div>
+                            <ul>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="catagroup">
+                        <dl class="cata_btn">
+                            <dt>
+                            <h3>
+                                <i class="b_i"></i>
+                                <a href="###">精品男装</a>
+                            </h3>
+                            </dt>
+                            <dd>
+                                <a href="###">上装</a>
+                                <a href="###">下装</a>
+                                <a href="###">内衣袜子</a>
+                                <a href="###">套装</a>
+                            </dd>
+                        </dl>
+                        <div class="cata_main">
+                            <div class="mask"></div>
+                            <ul>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="catagroup">
+                        <dl class="cata_btn">
+                            <dt>
+                            <h3>
+                                <i class="b_i"></i>
+                                <a href="###">美容美妆</a>
+                            </h3>
+                            </dt>
+                            <dd>
+                                <a href="###">美容护肤</a>
+                                <a href="###">彩妆/化妆工具</a>
+                                <a href="###">身体护理</a>
+                            </dd>
+                        </dl>
+                        <div class="cata_main">
+                            <div class="mask"></div>
+                            <ul>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="catagroup">
+                        <dl class="cata_btn">
+                            <dt>
+                            <h3>
+                                <i class="b_i"></i>
+                                <a href="###">母婴童装</a>
+                            </h3>
+                            </dt>
+                            <dd>
+                                <a href="###">童装</a>
+                                <a href="###">育婴用品</a>
+                                <a href="###">洗护</a>
+                                <a href="###">喂养</a>
+                            </dd>
+                        </dl>
+                        <div class="cata_main">
+                            <div class="mask"></div>
+                            <ul>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="catagroup">
+                        <dl class="cata_btn">
+                            <dt>
+                            <h3>
+                                <i class="b_i"></i>
+                                <a href="###">内衣</a>
+                            </h3>
+                            </dt>
+                            <dd>
+                                <a href="###">文胸</a>
+                                <a href="###">家居服</a>
+                                <a href="###">特色内衣</a>
+                                <a href="###">内裤</a>
+                            </dd>
+                        </dl>
+                        <div class="cata_main">
+                            <div class="mask"></div>
+                            <ul>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="catagroup">
+                        <dl class="cata_btn" style="border:0;">
+                            <dt>
+                            <h3>
+                                <i class="b_i"></i>
+                                <a href="###">数码家电/照明</a>
+                            </h3>
+                            </dt>
+                            <dd>
+                                <a href="###">生活电器</a>
+                                <a href="###">厨房电器</a>
+                                <a href="###">个人护理</a>
+                            </dd>
+                        </dl>
+                        <div class="cata_main">
+                            <div class="mask"></div>
+                            <ul>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul id="nav">
+                <li><a href="index.html">首页</a></li>
+                <li>
+                    <a href="product.html">报活动</a>
+                    <b class="nav_hot"></b>
+                </li>
+                <li><a href="glist.html">女装</a></li>
+                <li><a href="###">男装</a></li>
+                <li><a href="###">箱包</a></li>
+                <li><a href="###">鞋靴</a></li>
+                <li><a href="###">美妆</a></li>
+                <li><a href="###">母婴</a></li>
+                <li><a href="###">家电</a></li>
+                <li><a href="###">食品</a></li>
+                <li><a href="###">饰品</a></li>
+                <li><a href="###">新手上路</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="shopcart">
+        <div class="layout">
+            <div class="cartwrap">
+                <div class="cart_t">
+                    <span class="shopstep1"></span>
+                    <span class="shopstep2"></span>
+                    <span class="shopstep3"></span>
+                </div>
+                <div class="shopcont">
+                    <h1>您购物车中的商品</h1>
+                    <div class="nocart" style="display:none;">
+                        <h1>
+                            <p>您的购物车空空如也~~~</p>
+                            <a href="index.html">选购商品>></a><a href="###">查看订单>></a>
+                        </h1>
+                    </div>
+                    <div class="havecart" style="display:block;">
+                        <div class="buytable">
+                            <h4>商城：<a href="detial.html">金丽都</a></h4>
+                            <table></table>
+                        </div>
+                        <div class="buyfoot">
+                            <p class="buyprice">
+                                商品总价:<span></span>
+                            </p>
+                            <p>
+                                <a href="###" class="buy_btn">立即下单</a>
+                                <a href="index.html" class="buy_back">继续购物</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cebian">
+        <a href="###" style="background:url(images/share_foot_kefu.png) no-repeat center 14px #D71E00">在线客服</a>
+        <a href="###" style="background:url(images/share_flow_logo.png) no-repeat center 14px #D71E00">APP下载</a>
+        <p></p>
+    </div>
+
+    <div class="friendlink">
+        <div class="layout">
+            <h2>友情链接</h2>
+            <span id="fade">展开友情链接︿</span>
+            <!--展开友情链接︿ 收起友情链接﹀-->
+        </div>
+    </div>
+
+    <div class="fade_wrap">
+        <div class="layout">
+            <div class="fade_p">
+                <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> | <a href="###">流量平台</a> |
+            </div>
+        </div>
+    </div>
+
+    <div class="adver">
+        <a href="###">
+            <img src="images/share_adver.png" alt=""/>
+        </a>
+        <p></p>
+    </div>
+
+    <div class="footer">
+        <div class="foot_t">
+            <div class="layout">
+                <dl>
+                    <dt>
+                        <a href="###">
+                            <img src="images/share_foot_home.png" alt=""/>
+                        </a>
+                    </dt>
+                    <dd>
+                        <h2>厂家直销</h2>
+                        <p>正品工厂货源</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="###">
+                            <img src="images/share_foot_daifa.png" alt=""/>
+                        </a>
+                    </dt>
+                    <dd>
+                        <h2>一件代发</h2>
+                        <p>下单马上发</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>
+                        <a href="###">
+                            <img src="images/share_foot_ps.png" alt=""/>
+                        </a>
+                    </dt>
+                    <dd>
+                        <h2>美工活动支持</h2>
+                        <p>打造专业视觉页面</p>
+                    </dd>
+                </dl>
+                <dl class="foot_last">
+                    <dt>
+                        <a href="###">
+                            <img src="images/share_foot_real.png" alt=""/>
+                        </a>
+                    </dt>
+                    <dd>
+                        <h2>担保交易</h2>
+                        <p>第三方平台支付</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="foot_m">
+            <div class="layout">
+                <dl>
+                    <dt>关于多商网</dt>
+                    <dd>
+                        <a href="###">了解多商网</a>
+                        <a href="###">加入我们</a>
+                        <a href="###">联系我们</a>
+                        <a href="###">常见问题</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>分销商帮助</dt>
+                    <dd>
+                        <a href="###">如何成为分销商</a>
+                        <a href="###">入驻多商</a>
+                        <a href="###">批发、进货流程</a>
+                        <a href="###">分销产品流程</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>成长路径</dt>
+                    <dd>
+                        <a href="###">分销商成长路径</a>
+                        <a href="###">转介绍福利</a>
+                        <a href="###">邀请有奖</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>报活动</dt>
+                    <dd>
+                        <a href="###">申报活动</a>
+                        <a href="###">活动产品</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>供应商帮助</dt>
+                    <dd>
+                        <a href="###">如何成为供应商</a>
+                        <a href="###">点击入驻多商</a>
+                        <a href="###">产品上架流程</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>帮助中心</dt>
+                    <dd>
+                        <a href="###">找回密码</a>
+                        <a href="###">常见问题</a>
+                        <a href="###">多商学院</a>
+                    </dd>
+                </dl>
+                <dl class="foot_last">
+                    <dt>
+                    <p>热线客服：<img src="images/share_foot_phone.png" alt=""/></p>
+                    <p>营业时间：全天24小时在线</p>
+                    </dt>
+                    <dd>
+                        <a href="###">在线客服</a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="foot_b">
+            <div class="foot_b_wrap">
+                <img src="images/share_foot_pic.png" alt=""/>
+                <p>
+                    <a href="###">关于我们</a> | <a href="###">用户帮助</a> | <a href="###">法律声明</a> | <a href="###">联系我们</a> | <a href="###">友情链接</a>
+                </p>
+                <p>
+                    趋势动力七年广州友商信息科技有限公司版权所有&copy;2005-2015 <a href="###">粤ICP备11099332号</a> <a href="###">站长统计</a>
+                </p>
+                <p>
+                    多商网珠三角网店货源批发市场，支持<a href="###">淘宝代销</a>、<a href="###">网店代理</a>，免费提供<a href="###">一件代发</a>
+                </p>
+                <p>
+                    地址:广州市中山大道89号天河软件园华景园区B栋西梯五楼 电话：400-616-3518
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,125 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+fieldset, img { border:none; }
+img{display: block; border:0;}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none; }
+body { color:#333; font:12px/20px "SimSun","宋体","Arial Narrow",HELVETICA; background:#fff;/* overflow-y:scroll;*/ overflow-x:hidden;}
+a { color:#666; text-decoration:none;}
+a:visited { color:#666; }
+a:hover, a:active, a:focus { color:#ff8400; text-decoration:underline;}
+.layout {width:1240px; margin:0 auto; overflow:hidden;}
+
+/*登录页面和注册页面共享样式*/
+/*body的背景色*/
+.gray {background:#F2F2F2; min-height:800px;}
+/*共享页面部分的头*/
+.log_h {margin:30px auto; width:1000px; overflow:hidden;}
+    .log_h a {float:left; height:51px; padding-right:15px;}
+    .log_h h1 {float:left; font-size:28px; height:51px; line-height:51px; padding-left:12px; border-left:1px solid #E4E4E4; font-weight:normal;}
+/*共享页面的盒子宽*/
+.log_b {border:6px solid #E8E8E8; width:888px; margin:0 auto; overflow:hidden; background:#ffffff;}
+
+/*首页和其他页的共享头部和尾部*/
+/*top*/
+.top {height:26px; background:#F3F3F3; padding-top:4px;}
+    .top_l {width:650px;float:left;}
+        .top_l_span {float:left;}
+        .hello {float:left;}
+    .top_r {width:500px; float:right;}
+        .top_r_wrap{float:right;}
+            .top_r_wrap>a {float:left; font-size:14px; margin-right:5px;}
+            .top_r_wrap ul {float:left;}
+                .top_r_wrap ul li {float:left; font-size:14px; padding-left:24px; margin-right:5px;}
+
+/*head*/
+.header {height:107px;}
+    .head_wrap {margin-top:26px; overflow:hidden;}
+        .head_l {float:left;}
+        .search {float:left; margin-left:50px; width:640px;}
+            .search>input {width:518px; height:32px; border:3px solid #d61e00; padding-left:10px; outline:none; float:left; line-height:32px;}
+            .search>a {width:95px; height:40px; text-align:center; line-height:40px; background:#D71E00; float:left; margin-left:2px; color:#ffffff; font-size:20px; font-family:'黑体'; text-decoration:none;}
+            .search ul {float:left; margin-top:5px;}
+                .search ul p {float:left; font-weight:bold; margin-right:7px; color:#747474;}
+                .search  ul li {float:left; margin-right:10px;}
+                    .search  ul li a {text-decoration:none; color:#666666;}
+                    .search  ul li a.hot {color:#D61E00}
+                    .search  ul li a:hover {color:#D61E00}
+        .head_r {float:left; margin-left:60px;}
+            .head_r a {float:left; margin-right:22px;}
+
+/*foot*/
+.footer {height:506px; border-top:3px solid #D71E00;}
+.foot_t { padding-bottom:50px; overflow:hidden; border-bottom:1px solid #DDDDDD;}
+    .foot_t .layout {width:1220px;}
+    .foot_t dl {float:left; width:260px; margin-top:50px; padding-left:37px; background:url(../images/share_foot_t_bg.png) no-repeat right center;}
+    .foot_t dl.foot_last,.foot_m dl.foot_last {background:none;}
+        .foot_t dl dt {float:left; margin-right:17px;}
+        .foot_t dl dd {padding-top:4px;}
+            .foot_t dl dd p {font-size:14px; margin-top:3px; color:#939393}
+.foot_m {border-bottom:1px solid #DDDDDD; height:153px; overflow:hidden;}
+    .foot_m dl {padding:0 44px; float:left;font-size:12px; background:url('../images/share_foot_m_bg.png') no-repeat right center; height:110px; margin-top:25px;}
+        .foot_m dl dt {margin-top:10px;}
+        .foot_m dl dd {overflow:hidden; }
+            .foot_m dl dd>a {display:block; color:#999999;}
+        .foot_m dl.foot_last dt p{margin-bottom:5px; }
+            .foot_m dl.foot_last dt p img {display:inline-block;}
+            .foot_m dl.foot_last dd a {display:block; width:195px; height:34px; background:#D71E00 url('../images/share_foot_kefu.png') no-repeat 55px center; color:#ffffff; font-size:16px; text-align:center; line-height:35px; padding-left:12px; text-decoration:none; padding-top:1px;}
+.foot_b {height:200px; overflow:hidden;}
+    .foot_b {width:600px; margin:10px auto 0;}
+        .foot_b_wrap img {margin:15px auto;}
+        .foot_b_wrap p {text-align:center; color:#666666;}
+        .foot_b_wrap p a {color:#666666; text-decoration:none;}
+
+/*friendlink*/
+.friendlink {min-height:22px;}
+    .friendlink h2 {font-size:12px; font-weight:normal; color:#333; float:left;}
+    .friendlink span {float:right; margin-right:40px; color:#333;}
+.fade_wrap {display:none;}
+    .fade_p {width:1186px; margin:10px 0 20px; padding:16px; border:1px solid #E4E4E4;}
+
+/*侧边栏*/
+.cebian {width:60px; position:fixed; right:0; top:315px; font-size:14px;}
+    .cebian a {color:#ffffff; text-decoration:none; display:block; width:60px; height:65px; margin-bottom:20px; line-height:100px; text-align:center;}
+    .cebian p {width:57px; height:52px; background:url(../images/share_return_top.png) no-repeat center; margin-left:3px; /**/display:none;}
+
+/*小广告*/
+.adver {position:fixed; bottom:-404px; right:0;}
+    .adver p {position:absolute; top:0; right:0; width:30px; height:30px; z-index:10;}
+
+/*首页和购物车详情页面的共享nav*/
+.nav_index {height:33px; border-bottom:2px solid #B1191A;}
+    .nav_index .layout {position:relative; height:35px; overflow: visible;}
+    .nav_index .layout>ul {padding-left:248px; height:35px;}
+        .nav_index .layout>ul li {float:left; padding:0 6px; position:relative; height:35px;}
+            .nav_index .layout>ul li a {display:inline-block; font-size:14px; height:29px; line-height:29px; padding:3px 13px; text-decoration:none; font-family: "微软雅黑"; color:#000000;}
+            .nav_index .layout>ul li a.navcur {background:#aa1800; color:#ffffff;}
+            .nav_hot {display:block; position:absolute; width:24px; height:16px; top:-5px; right:-5px; background:url('../images/nav_hot.png') no-repeat center;}
+    .nav_cate {position:absolute; top:0; left:0;}
+        .nav_cate>a {display:block; width:238px; height:35px; background:#aa1800; text-align:center; line-height:35px; color:#fff; font-family: Tahoma, Arial, Hiragino Sans GB, Microsoft Yahei; font-size:14px; text-decoration:none;}
+        .nav_cate>i {position:absolute; display:block; width:238px; height:35px; background:url("../images/nav_shang.png") no-repeat 183px center; top:0; left:0;}
+        .catelist {height:511px; position:absolute; background:#222; z-index:10; width:238px;}
+            .catagroup {width:238px; margin:0 auto;}
+                .cata_btn {width:206px; margin:0 auto; border-bottom:1px dotted #ffffff;}
+                    .cata_btn dt {width:100%; height:30px; overflow:hidden;}
+                        .cata_btn dt h3 {height:38px; line-height: 38px; float: left; width: 205px; padding-left: 1px; background:url('../images/catelist_cancel.png') no-repeat right center; overflow:hidden;}
+                        .cata_btn dt h3 i {width: 20px; height: 33px; margin: 2px 8px 0 0; float:left;}
+                        .cata_btn dt h3 a {float:left; height:38px; line-height:38px; font-weight:normal; font-family: "新宋体"; color:#ffffff; text-decoration:none; font-size:13px;}
+                        .cata_btn dt h3 a.b_a {color:#D61E00;}
+                    .cata_btn dd {height:26px; overflow:hidden; padding:2px 0 3px 0;}
+                        .cata_btn dd a {display:inline-block; font-size:13px; color:#ffffff; text-decoration:none;}
+                        .cata_btn dd a:hover {color:#D61E00;}
+                .mask {width:2px; height:62px; position:absolute; left:-2px; background:#fff; display:none;}
+                .cata_main {width:730px; min-height:509px; position:absolute; background:#fff; top:0; left:235px; border:2px solid #b1191a; border-top:0;  display:none;}
+                .cata_main ul {float:right; margin-right:3px;}
+                    .cata_main ul li {margin-top:3px;}
+                    .cata_main dl {width: 489px; border-top: 1px dotted #dedede;  float: left; padding:6px 0; margin-top:10px; margin-left:20px;}
+                    .cata_main dl dt {font-size: 12px; color: #d61e00; line-height: 110%; text-align: left; padding: 0 10px 0 4px; vertical-align: top; font-weight: 700; margin: 5px 0;}
+                    .cata_main dl dd {line-height: 190%; display: inline-block; padding: 5px 0; }
+                    .cata_main dl dd a {color:#666; margin-right:20px; text-decoration: none;}
+
+
+/*公用添加样式*/
+.disp {display:none;}
+.bg {background:#D71E00;}
+.bg .layout>ul li a {color:#ffffff;}
+

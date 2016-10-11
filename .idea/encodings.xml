@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/css/css.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/style.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/detial.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/glist.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/login.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/product.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/register.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/share.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/shoping.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/json/allProduct.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/json/fixednav.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/json/floorContentLeft.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/json/indexFloor.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/json/is_log.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/json/linav.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/json/list.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/json/not_log.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/json/profloor.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/json/randGoods.json" charset="UTF-8" />
+  </component>
+</project>

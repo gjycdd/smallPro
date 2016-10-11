@@ -1,0 +1,43 @@
+[
+  {
+    "href":"1##",
+    "floor_num":"1F",
+    "floor_name":"女装货源专区",
+    "floor_go":"货源批发市场"
+  },{
+  "href":"2##",
+  "floor_num":"2F",
+  "floor_name":"箱包货源专区",
+  "floor_go":"货源批发市场"
+},{
+  "href":"3##",
+  "floor_num":"3F",
+  "floor_name":"鞋靴货源专区",
+  "floor_go":"货源批发市场"
+},{
+  "href":"4##",
+  "floor_num":"4F",
+  "floor_name":"美妆货源专区",
+  "floor_go":"货源批发市场"
+},{
+  "href":"5##",
+  "floor_num":"5F",
+  "floor_name":"童装货源专区",
+  "floor_go":"货源批发市场"
+},{
+  "href":"6##",
+  "floor_num":"6F",
+  "floor_name":"数码家电爆款专区",
+  "floor_go":"货源批发市场"
+},{
+  "href":"7##",
+  "floor_num":"7F",
+  "floor_name":"食品货源专区",
+  "floor_go":"货源批发市场"
+},{
+  "href":"8##",
+  "floor_num":"8F",
+  "floor_name":"饰品货源专区",
+  "floor_go":"货源批发市场"
+}
+]
